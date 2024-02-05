@@ -1,0 +1,56 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$theme-colors: (
+  'primary': #99fffab0,
+  'secondary': #c8e3e9b2,
+  'dark': #111,
+);
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(63, 212, 212, 0.5);
+}
+
+#uvod {
+  background-image: url(img/hotelbg.jpg);
+  background-size: cover;
+  min-height: 90vh;
+  position: relative;
+  color: #457fa1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------------------history-------------------------*/
+#history .view {
+  min-width: 100%;
+}
+
+#heading {
+  font-family: 'Courgette', cursive;
+}
+
+#paragraph1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#paragraph2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*--------------modal--------------------*/
+
+.mod {
+  width: 100%;
+}
